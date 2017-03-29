@@ -4,6 +4,10 @@
 ### demo演示
  [地址](http://tangzhirong.github.io/lock/example/demo.html)
  
+### tips
+* 移动端屏幕尺寸适配（切换不同设备时，请刷新页面，加载设备屏幕尺寸信息）
+* 支持部分参数自定义（标题、手势区圆点个数）
+
 使用方法
 =======================
 ### 在html中引入css和js文件：
