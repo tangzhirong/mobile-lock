@@ -4,13 +4,14 @@
 ### demo演示
  [地址](http://tangzhirong.github.io/lock/example/demo.html)
  
-### tips
+### Tips
 * 移动端屏幕尺寸适配（切换不同设备时，请刷新页面，加载设备屏幕尺寸信息）
 * 支持部分参数自定义（标题、手势区圆点个数）
 
-使用方法
+
+Usage
 =======================
-### 在html中引入css和js文件：
+### 在html中引入css、js文件
     
 ### 
     <!DOCTYPE html>
@@ -25,7 +26,8 @@
     <script type="text/javascript" src="../src/lock.js"></script>
     </body>
     </html>
-###  加入如下script脚本
+    
+###  加入script脚本
 
 ###
     <script type="text/javascript">
