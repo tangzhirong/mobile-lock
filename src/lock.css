@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240,240,242);
+}
+
+.lock_title,.lock_warn,.lock_choose{
+    margin: 1em auto;
+    text-align: center;
+}
+
+.lock_panel{
+    display: block;
+    margin: 15px auto;
+}
+
+.lock_warn{
+    font-weight: 800;
+}
+
+
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    body{
+         font-size:1rem; 
+    }
+    .lock_title,.lock_warn,.lock_choose{
+        width:160px;
+    }
+    .lock_choose input{
+        width: 1rem;
+        height:1rem;
+        margin-right: 1em;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 375px) {
+    body{
+         font-size:1.5rem; 
+    }
+    .lock_title,.lock_warn,.lock_choose{
+        width:260px;
+    }
+    .lock_choose input{
+        width: 1.5rem;
+        height:1.5rem;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 639px) and (min-width: 414px) {
+    body{
+         font-size:1.8rem; 
+    }
+    .lock_title,.lock_warn,.lock_choose{
+        width:300px;
+    }
+    .lock_choose input{
+        width: 1.8em;
+        height:1.8em;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    body{
+         font-size:2.5rem; 
+    }
+    .lock_title,.lock_warn,.lock_choose{
+        width:360px;
+    }
+    .lock_choose input{
+        width: 2.5rem;
+        height:2.5rem;
+        margin-right: 1em;
+    }
+}
